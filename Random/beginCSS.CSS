@@ -1,0 +1,30 @@
+/* General button styling */
+button {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Subscribe button */
+  .subscribe {
+    background-color: #FF0000; /* Red background */
+    color: white;
+    border: none;
+  }
+  
+  /* Join button */
+  .join {
+    background-color: white;
+    color: #007BFF; /* Blue text */
+    border: 2px solid #007BFF;
+  }
+  
+  /* Tweet button */
+  .tweet {
+    background-color: #1DA1F2; /* Twitter blue background */
+    color: white;
+    border: none;
+  }
+  
