@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #6a4ea1; /* Purple background */
+            padding: 10px 20px;
+            color: white;
+        }
+        .navbar .home {
+            font-weight: bold;
+        }
+        .navbar .search-box {
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+        .navbar .search-box input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+        }
+        .navbar .download-btn {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar .download-btn:hover {
+            background-color: white;
+            color: #6a4ea1;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="home">Home</div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+        </div>
+        <a href="#" class="download-btn">Download</a>
+    </div>
+</body>
+</html>

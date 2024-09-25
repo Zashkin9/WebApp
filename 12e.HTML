@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu with Notifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            font-size: 20px;
+        }
+        .badge {
+            background-color: #007aff;
+            color: white;
+            border-radius: 50%;
+            padding: 5px 12px;
+            font-size: 16px;
+            display: inline-block;
+            min-width: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-item">
+            <span>Home</span>
+            <span class="badge">14</span>
+        </div>
+        <div class="menu-item">
+            <span>Notifications</span>
+            <span class="badge">3</span>
+        </div>
+        <div class="menu-item">
+            <span>Messages</span>
+            <span class="badge">5</span>
+        </div>
+    </div>
+</body>
+</html>
